@@ -30,11 +30,12 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.textBoxname = new System.Windows.Forms.TextBox();
+            this.textBoxname2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(441, 178);
+            this.button1.Location = new System.Drawing.Point(494, 168);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -44,17 +45,25 @@
             // 
             // textBoxname
             // 
-            this.textBoxname.Location = new System.Drawing.Point(335, 178);
+            this.textBoxname.Location = new System.Drawing.Point(219, 168);
             this.textBoxname.Name = "textBoxname";
             this.textBoxname.Size = new System.Drawing.Size(100, 20);
             this.textBoxname.TabIndex = 1;
             this.textBoxname.TextChanged += new System.EventHandler(this.textBoxname_TextChanged);
+            // 
+            // textBoxname2
+            // 
+            this.textBoxname2.Location = new System.Drawing.Point(353, 168);
+            this.textBoxname2.Name = "textBoxname2";
+            this.textBoxname2.Size = new System.Drawing.Size(100, 20);
+            this.textBoxname2.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBoxname2);
             this.Controls.Add(this.textBoxname);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -68,6 +77,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBoxname;
+        private System.Windows.Forms.TextBox textBoxname2;
     }
 }
 
