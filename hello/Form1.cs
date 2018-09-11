@@ -18,8 +18,8 @@ namespace hello
         }
 
         private void button1_Click(object sender, EventArgs e)
-        (
-            messagebox,show<'hello'>:
-        )
+        {
+            MessageBox.Show("hello");
+        }
     }
 }
